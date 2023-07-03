@@ -15,12 +15,12 @@ export default function getRefUrl(): string {
   });
 
   const id = params?.id;
-
-  if (id === "AI") {
-    return "https://bs.aiesst.cn/6927.html";
-  } else {
-    return "https://bs.aiesst.cn/6910.html";
-  }
+  return "https://bs.aiesst.cn/7158.html";
+  // if (id === "AI") {
+  //   return "https://bs.aiesst.cn/6927.html";
+  // } else {
+  //   return "https://bs.aiesst.cn/6910.html";
+  // }
   // const isGptNext = location.host.indexOf("gptnext.top") > -1;
 
   // if (isGptNext) {
