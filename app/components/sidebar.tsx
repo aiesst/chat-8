@@ -55,9 +55,9 @@ function openInssueModal() {
     children: (
       <div className="markdown-body issue-book">
         <div className="issue-content">
-          近期，chatgpt的火热程度不言而喻。网站建立初衷是为了提供一个国内方便访问chatgpt（免魔法）的通道，供大家学习和研究。我们日常的运营与维护需要花费极大的
+          近期，AIGC的火热程度不言而喻。网站建立初衷是为了方便大家学习和研究。我们日常的运营与维护需要花费极大的
           <strong>精力和成本</strong>
-          ，包括服务器、梯子、购买token等，大概上千美元/月的维护成本。为了让网站持续运行下去，因此开通了友情赞助。只要您赞助了就可以一直使用它，每天请求额度由承载能力动态控制，非常感谢已有的36位同学的赞助，我们会尽最大的努力，让网站更好的运行！
+          ，包括服务器、梯子、购买token等，大概上千刀/月的维护成本。为了让网站持续运行下去，因此开通了友情赞助。只要您赞助了就可以一直使用它，每天请求额度由承载能力动态控制，非常感谢已有的十来位同学的赞助，我们会尽最大的努力，让网站更好的运行！
           经过一段时间的运行，有几个问题：
         </div>
         <ul className="issue-content-ul">
@@ -67,7 +67,7 @@ function openInssueModal() {
             和访问码的访问。
           </li>
           <li>
-            目前短期平台还未打算将其作为盈利手段，遵从<strong>自由赞助</strong>
+            目前平台不打算作为盈利，遵从<strong>自由赞助</strong>
             ，如果不愿赞助也有免费使用的额度，欢迎大家尝试。
           </li>
           <li>
@@ -80,12 +80,12 @@ function openInssueModal() {
           <strong>重要通知：</strong>
           <ul className="issue-content-ul">
             <li>
-              我们正在努力对接ChatGPT4.0，若对接成功，4.0上线前的赞助用户可以
+              我们正在努力对接4.0，若对接成功，4.0上线前的赞助用户可以
               <strong>免费</strong>
               使用，支持我们就赞助我们吧！同时，也即将对接上线各种有用的AI工具。
             </li>
             <li>
-              由于域名可能被墙（国内无法访问），保险起见加入我们Telegram群组(需魔法)，防止走丢。或者保存我们的邮箱，后续能与我们取得联系chatgptnext@gmail.com。
+              由于域名可能被墙，保险起见加入我们Telegram群组(需魔法)。或者保存我们的邮箱，后续能与我们取得联系chatgptnext@gmail.com。
             </li>
           </ul>
         </div>
@@ -175,7 +175,7 @@ export function SideBar(props: { className?: string }) {
           <div className={styles["sidebar-title-version"]}>Latest</div>
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          提供免梯直连ChatGPT，4.0即将上线.
+          提供免梯直连gpt，4.0即将上线.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
