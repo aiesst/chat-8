@@ -15,8 +15,8 @@ export default function getRefUrl(): string {
   });
 
   const id = params?.id;
-  return "https://mbd.pub/o/bread/ZJuTl5ds";
-
+  //return "https://mbd.pub/o/bread/ZJuTl5ds";
+  return "https://bs.aiesst.cn/7158.html";
   //return "https://bs.aiesst.cn/7158.html";
   // if (id === "AI") {
   //   return "https://bs.aiesst.cn/6927.html";
