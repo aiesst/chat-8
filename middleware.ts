@@ -33,7 +33,7 @@ export async function middleware(req: NextRequest) {
 
   //数据库记录
   const count = await getIpCount(ip)
-  const isHost = referer.indexOf("gptnext.top") > -1 || referer.indexOf("chatnext.top") > -1 || referer.indexOf("gitpod.io") > -1
+  const isHost = referer.indexOf("gptnext.top") > -1 || referer.indexOf("chatnext.top") > -1 || referer.indexOf("gitpod.io") > -1 || referer.indexOf("chatwell.top") > -1
 
 
   console.log("[Auth] allowed hashed codes: ", [...serverConfig.codes]);
